@@ -31,7 +31,7 @@ client.on('message', async (message) => {
 });
 
 async function getChatGptResponse(message) {
-    const apiKey = 'GPT3_API_KEY'; 
+    const apiKey = 'GPT_API_KEY'; 
     const apiUrl = 'https://api.openai.com/v1/engines/davinci-codex/completions';
 
     try {
@@ -51,5 +51,5 @@ async function getChatGptResponse(message) {
     }
 }
 
-const token = 'BURAYA_BOT_TOKEN'; 
+const token = 'BURAYA_DİSCORD_BOT_TOKEN'; 
 client.login(token);
