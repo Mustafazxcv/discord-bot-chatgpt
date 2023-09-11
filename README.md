@@ -14,3 +14,15 @@ Oluşturulan URL'i kopyalayın ve tarayıcıda açın. Bu URL, botunuzu seçtiğ
 
 # Bot Komutları
 Projede bulabilirsiniz.
+
+# Bot Kurulumu
+Aşağıdaki komutu kullanarak Discord.js'i yükleyin:
+```shell
+npm install discord.js
+```
+Klasörün içinde yeni bir dosya oluşturun ve bu dosyaya "bot.js" veya istediğiniz bir isim verin.
+Terminali açın ve bot dosyasının bulunduğu klasöre gidin.
+Botu çalıştırmak için aşağıdaki komutu kullanın:
+```shell
+node bot.js
+```
