@@ -13,12 +13,12 @@ Botunuzu sunucuya eklemek için, "OAuth2" sekmesine geçin.
 Oluşturulan URL'i kopyalayın ve tarayıcıda açın. Bu URL, botunuzu seçtiğiniz sunucuya eklemenize yardımcı olacaktır.
 
 # Bot Komutları
-Projede bulabilirsiniz.
+!sohbet <[text]> komutu kullanıldığında ChatGPT ile iletişim kurar.
 
 # Bot Kurulumu
-Aşağıdaki komutu kullanarak Discord.js'i yükleyin:
+Aşağıdaki komutu kullanarak Discord.js ve axios (API çağrıları yapmak için) paketlerini yükleyin:
 ```shell
-npm install discord.js
+npm install discord.js axios
 ```
 Klasörün içinde yeni bir dosya oluşturun ve bu dosyaya "bot.js" veya istediğiniz bir isim verin.
 Terminali açın ve bot dosyasının bulunduğu klasöre gidin.
