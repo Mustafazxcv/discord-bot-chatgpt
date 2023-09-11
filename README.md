@@ -26,3 +26,23 @@ Botu çalıştırmak için aşağıdaki komutu kullanın:
 ```shell
 node bot.js
 ```
+# Değişkenler
+
+```shell
+const token = 'BURAYA_DİSCORD_BOT_TOKEN';
+```
+```shell
+max_tokens: 50,
+```
+```shell
+const apiKey = 'GPT_API_KEY';
+```
+```shell
+if (command === 'sohbet') {
+            const userMessage = args.join(' ');
+            if (!userMessage) {
+                message.reply('Lütfen bir mesaj girin.');
+```
+```shell
+const prefix = '!';
+```
